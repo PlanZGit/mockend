@@ -60,6 +60,12 @@
     },
     "category": {
       "string": ["Drama", "Romance", "Action"]
+    },
+    "rate": {
+      "float": {
+        "min": 1.0,
+        "max": 10.0
+      }
     }
   }
 }
