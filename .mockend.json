@@ -62,9 +62,9 @@
       "string": ["Drama", "Romance", "Action"]
     },
     "rate": {
-      "float": {
-        "min": 1.0,
-        "max": 10.0
+      "int": {
+        "min": 1,
+        "max": 10
       }
     }
   }
