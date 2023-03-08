@@ -70,7 +70,12 @@
     "_": {
       "items": 25
     },
-
+    "title": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 20
+      }
+    },
     "details": {
       "loremParagraphs": {
         "minLength": 10,
