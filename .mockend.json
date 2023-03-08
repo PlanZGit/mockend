@@ -43,21 +43,12 @@
       "hasMany": "Comment"
     }
   },
-  "Movies": {
+  "Movie": {
     "_": {
-      "items": 25
-    },
-    "title": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 20
-      }
-    },
-    "details": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
+      "items": 10,
+      "data": [{ "title": "Title 1" }, { "title": "Title 2" }]
     }
-  }
+  },
+  "title": { "loremWords": { "minLength": 5, "maxLength": 20 } },
+  "author": { "loremWord": {} }
 }
