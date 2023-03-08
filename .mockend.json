@@ -45,9 +45,15 @@
   },
   "Movie": {
     "_": {
-      "items": 10
+      "items": 20
     },
     "title": { "loremWords": { "minLength": 5, "maxLength": 20 } },
-    "author": { "loremWord": {} }
+    "author": { "loremWord": {} },
+    "detail": {
+      "loremParagraphs": {
+        "minLength": 10,
+        "maxLength": 100
+      }
+    }
   }
 }
