@@ -56,7 +56,7 @@
       }
     },
     "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/1080"
     },
     "category": {
       "string": ["Drama", "Romance", "Action"]
